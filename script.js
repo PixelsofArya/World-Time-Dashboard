@@ -1,6 +1,7 @@
 const timeZones = [
   { label: "Local Time", timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone },
   { label: "Singapore", timeZone: "Asia/Singapore" },
+  { label: "Dubai", timeZone: "Asia/Dubai" },
   { label: "Jakarta", timeZone: "Asia/Jakarta" },
   { label: "Japan", timeZone: "Asia/Tokyo" },
 ];
@@ -91,3 +92,4 @@ for (const place of timeZones) {
 
 updateAll();
 setInterval(updateAll, 1000);
+
